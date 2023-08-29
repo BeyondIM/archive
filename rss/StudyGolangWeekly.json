@@ -1,0 +1,34 @@
+<pre>Undefined array key &quot;REMOTE_ADDR&quot; at lib/Debug.php line 10</pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="RSS-Bridge" />
+    <title>RSS-Bridge</title>
+    <link href="static/style.css?2023-03-24" rel="stylesheet">
+    <link rel="icon" type="image/png" href="static/favicon.png">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="./">
+                <img width="400" src="static/logo_600px.png">
+            </a>
+        </header>
+
+                    <div class="alert-error">
+                Warning : Debug mode is active from any location, make sure only you can access RSS-Bridge.            </div>
+        
+        
+<h1>
+    Please authenticate in order to access this instance
+</h1>
+    </div>
+</body>
+</html>
+
+<pre>Undefined array key &quot;REMOTE_ADDR&quot; at lib/Debug.php line 10</pre>
+<pre>Undefined array key &quot;REMOTE_ADDR&quot; at lib/Debug.php line 10</pre>
+<pre>(shutdown) 2: Undefined array key &quot;REMOTE_ADDR&quot; in lib/Debug.php line 10</pre>
