@@ -1,4 +1,5 @@
 <pre>Undefined array key &quot;REMOTE_ADDR&quot; at lib/Debug.php line 10</pre>
+<pre>Undefined array key &quot;REMOTE_ADDR&quot; at lib/Debug.php line 10</pre>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,10 +22,71 @@
                     <div class="alert-error">
                 Warning : Debug mode is active from any location, make sure only you can access RSS-Bridge.            </div>
         
-        
-<h1>
-    Please authenticate in order to access this instance
-</h1>
+        <div class="error">
+
+            
+            
+    <h2>Details</h2>
+
+    <div style="margin-bottom: 15px">
+        <div>
+            <strong>Type:</strong> Exception        </div>
+
+        <div>
+            <strong>Code:</strong> 0        </div>
+
+        <div>
+            <strong>Message:</strong> Bridge name invalid: CssSelectorBridge        </div>
+
+        <div>
+            <strong>File:</strong> lib/BridgeFactory.php        </div>
+
+        <div>
+            <strong>Line:</strong> 47        </div>
+    </div>
+
+    <h2>Trace</h2>
+
+            <code>
+            #0 index.php(7): RssBridge-&gt;main()        </code>
+        <br>
+            <code>
+            #1 lib/RssBridge.php(17): RssBridge-&gt;run()        </code>
+        <br>
+            <code>
+            #2 lib/RssBridge.php(100): DisplayAction-&gt;execute()        </code>
+        <br>
+            <code>
+            #3 actions/DisplayAction.php(23): BridgeFactory-&gt;__construct()        </code>
+        <br>
+            <code>
+            #4 lib/BridgeFactory.php(26): BridgeFactory-&gt;createBridgeClassName()        </code>
+        <br>
+            <code>
+            #5 lib/BridgeFactory.php(47)        </code>
+        <br>
+    
+    <br>
+
+    <h2>Context</h2>
+
+    <div>
+        <strong>Query:</strong>     </div>
+
+    <div>
+        <strong>Version:</strong> dev.2023-07-11    </div>
+
+    <div>
+        <strong>OS:</strong> Linux    </div>
+
+    <div>
+        <strong>PHP:</strong> 8.1.22    </div>
+
+    <br>
+
+    <a href="/">Go back</a>
+</div>
+
     </div>
 </body>
 </html>
